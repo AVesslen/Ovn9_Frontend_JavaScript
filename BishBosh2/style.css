@@ -1,0 +1,58 @@
+.error{
+    background-color: red;
+}
+
+body{
+    background-color: black;
+    color:white;   
+        
+}
+
+
+#formBtn{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #E8116B;
+  border-radius: 100px;
+  color: white;
+}
+
+#numberInputForm{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 2rem;
+margin-bottom: 4rem;
+}
+
+input{
+    margin-top: 1rem;
+}
+
+header{
+    margin-top: 1rem;
+    background-image: url("bishbosh_header.png"); height: 200px;
+    font-size: 3rem;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+      
+      
+}
+
+.container{
+    padding: 10rem;
+}
+
+#exempel{
+    color:#E8116B;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+
