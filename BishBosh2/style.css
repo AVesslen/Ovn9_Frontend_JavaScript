@@ -1,13 +1,8 @@
-.error{
-    background-color: red;
-}
 
 body{
     background-color: black;
-    color:white;   
-        
+    color:white;           
 }
-
 
 #formBtn{
   margin-top: 2rem;
@@ -36,13 +31,12 @@ header{
     font-size: 3rem;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px;
-      
-      
+    -webkit-text-stroke: 1px;      
 }
 
 .container{
-    padding: 10rem;
+    margin-top: -4rem;
+    padding: 6rem;
 }
 
 #exempel{
@@ -52,6 +46,13 @@ header{
 h2{
     text-align: center;
 }
+
+hr{
+    color:rgb(146, 218, 146);
+    border: 2px dotted;
+}
+
+
 
 
 

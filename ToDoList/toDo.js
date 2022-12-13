@@ -6,55 +6,35 @@ const ul = document.querySelector('#outputList');
 
 form.addEventListener('submit', (e) => {
       e.preventDefault();   
-      
-      let input=e.target[0].value;
-      let input2 = item.value;
-
-      console.log(input);
-      console.log(input2)
-    //   output.innerHTML+=
-    //   `<ul>
-    //   <li>${input2}</li>
-    //   </ul>`
+     
+      let input = item.value;  
         
-    let li = document.createElement("LI");
-    let liText = document.createTextNode(input);
-    li.appendChild(liText);
+    let li = document.createElement("LI"); // skapa nytt <li> element
+    let liText = document.createTextNode(input);  // lägg till input som dess value
+    li.appendChild(liText);    // addera <li> elementet till <ul> som childnode 
     ul.appendChild(li);
-// skap nytt <li> element
-// lägg till input som dess value
-// addera <li> elementet till <ul> som childnode 
 
-      //`<p>${input}</p>`          
-      //output.innerHTML += `<p>${e.target[0].value}</p>`;
-     // e.target.reset();       
+    let deleteButton = document.createElement("button");
+    let X=document.createTextNode("\u00D7");   
+    deleteButton.classList.add('deleteButtonDesign');  //deleteButton.className="deleteButtonDesign"; funkar också
+    deleteButton.appendChild(X);
+    li.appendChild(deleteButton);
+    ul.appendChild(li);     
 })
 
 
-  ul.addEventListener('click', (e) => {
-      
-      if(e.target.tagName === 'LI'){
-        console.log(e.target);
+  ul.addEventListener('click', (e) => {      
+      if(e.target.tagName === 'LI'){        
         e.target.classList.toggle('done');
       }
-    //   e.target.classList.add('done');      
-      
-     // e.target.remove();
+    
+      if(e.target.tagName==='BUTTON'){
+        e.target.parentElement.remove();
+      }    
     })
 
 
 
-
-
-/*let counter=1;
-  button.addEventListener('click', (e) => {
-    e.preventDefault();
-    output.innerHTML += `
-    <div>
-    <p>Hej: ${counter++} </p>
-  </div>
-  `
-})*/
 
 
 

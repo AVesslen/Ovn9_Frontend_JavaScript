@@ -2,5 +2,12 @@ li.done{
     text-decoration: line-through;
 }
 
+.deleteButtonDesign{    
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    background-color: red;
+    border-radius: 30%;
+    color: white;
+}
 
 
