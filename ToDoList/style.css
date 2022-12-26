@@ -7,6 +7,7 @@ h1{
     font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
+    padding-top: 2rem;
 }
 
 li.done{
@@ -39,7 +40,7 @@ border:none;
 outline:none;
 height:3.5rem;
 font-size: 1.15rem;
-width: 30rem;
+width: 25rem;
 }
 
 #userInput:hover{
@@ -50,8 +51,9 @@ form{
     display:flex;   
     justify-content: center;
     align-items:center;
-    padding-top: 3rem;
-    padding-bottom: 5rem;    
+    padding-top: 5rem;
+    padding-bottom: 3rem;    
+    padding-left: 0rem;
 }
 
 .container{   
@@ -76,13 +78,21 @@ form{
 background-color:  rgb(142, 191, 166);
 }
 
+ul{  
+    padding-right: 5rem;
+    padding-left:5rem;
+}
+
+ul li{
+    padding-left: 0.5rem;
+}
 
 li{
     border-bottom: 0.2rem solid white;
-    width: 40rem;
+    width:30rem;
     list-style: none;
     font-size: 1.3rem;
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: 1rem;   
 }
   
