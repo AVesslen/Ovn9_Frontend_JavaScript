@@ -6,7 +6,7 @@ const ul = document.querySelector('#outputList');
 
 form.addEventListener('submit', (e) => {
       e.preventDefault();   
-     
+  if(item.value != ""){
       let input = item.value;  
         
     let li = document.createElement("LI"); // skapa nytt <li> element
@@ -15,11 +15,13 @@ form.addEventListener('submit', (e) => {
     ul.appendChild(li);
 
     let deleteButton = document.createElement("button");
-    let X=document.createTextNode("\u00D7");   
+    //let X=document.createTextNode("\u00D7");   
+    let X=document.createTextNode("Delete"); 
     deleteButton.classList.add('deleteButtonDesign');  //deleteButton.className="deleteButtonDesign"; funkar också
     deleteButton.appendChild(X);
     li.appendChild(deleteButton);
-    ul.appendChild(li);     
+    ul.appendChild(li);    
+  } 
 })
 
 
