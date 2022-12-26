@@ -1,14 +1,88 @@
+body{
+    background-color: rgb(247, 123, 123);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
 li.done{
     text-decoration: line-through;
-    background-color: bisque;
+    background-color: rgb(142, 191, 166);
 }
 
 .deleteButtonDesign{    
-    margin-left: 1.5rem;
-    margin-top: 1rem;
-    background-color: red;
-    border-radius: 30%;
+    /*margin-right: 0.75;*/    
+    float: right;   
+    background-color: transparent;
+    border: none;    
     color: white;
 }
 
+.deleteButtonDesign:hover{
+  color: red;
+  font-weight: bold;
+}
 
+
+
+#userInput{
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 2.5rem;
+border:none;
+outline:none;
+height:3.5rem;
+font-size: 1.15rem;
+width: 30rem;
+}
+
+#userInput:hover{
+    background-color: white;
+    }
+
+form{
+    display:flex;   
+    justify-content: center;
+    align-items:center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;    
+}
+
+.container{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#addButton{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+}
+#addButton:hover{
+background-color:  rgb(142, 191, 166);
+}
+
+
+li{
+    border-bottom: 0.2rem solid white;
+    width: 40rem;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+  
