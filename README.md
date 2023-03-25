@@ -14,6 +14,7 @@ A web-based UI that includes:
 
 5. A presentation of the numbers
 
+Result:
 ![bild](https://user-images.githubusercontent.com/116891646/227739435-92d6b7ef-b9ef-486d-91ce-312fa2015e7f.png)
 
 
@@ -34,6 +35,7 @@ The text will then be strikethroughed and the element's background color will ch
 The text then returns from strikethroughed to normal and the element regains its original color.
 5. There must also be an option to remove the item completely from the list.
 
+Result:
 ![bild](https://user-images.githubusercontent.com/116891646/227740116-278c2d16-4b78-4583-9739-a1c9ea155403.png)
 
 
